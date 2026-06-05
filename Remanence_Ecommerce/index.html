@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remanence – Fashion for the Whole Family</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <header style="display:flex;align-items:center;justify-content:space-between;max-width:1300px;margin:0 auto;width:100%;padding:0 20px;">
+    <img src="Images/Logo.png" alt="Remanence Logo" style="width:90px;height:auto;">
+    <span style="color:rgba(255,255,255,0.6);font-size:12px;letter-spacing:2px;">FREE SHIPPING ON ORDERS OVER P500</span>
+  </header>
+</div>
+
+<!-- NAV -->
+<div class="nav">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid" style="max-width:1300px;margin:0 auto;">
+    <a class="navbar-brand" href="index.html">Remanence</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap:4px;">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="product.html">All Products</a></li>
+            <li><a class="dropdown-item" href="mens.html">Men</a></li>
+            <li><a class="dropdown-item" href="womens.html">Women</a></li>
+            <li><a class="dropdown-item" href="childrens.html">Children</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="about_us.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact_us.html">Contact</a></li>
+      </ul>
+      <form class="search-form d-flex ms-auto me-3" style="max-width:240px;">
+        <input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Go</button>
+      </form>
+      <a class="nav-link" href="cart.html" style="position:relative;padding:8px 14px;font-size:20px;">
+        🛒 <span class="cart-badge">0</span>
+      </a>
+      <a class="nav-link" href="login.html" style="font-size:13px;letter-spacing:1px;">Log In</a>
+    </div>
+  </div>
+</nav>
+</div>
+
+<!-- HERO SLIDER -->
+<div class="slider">
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000" style="position:relative;">
+        <img src="Images/slider_images1.jpg" class="d-block w-100" alt="New Collection">
+        <div class="carousel-caption-custom">
+          <h2>New Arrivals</h2>
+          <p style="font-size:14px;letter-spacing:2px;margin-bottom:4px;">Spring / Summer 2026</p>
+          <a href="product.html">Shop Now</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000" style="position:relative;">
+        <img src="Images/slider_image2.jpg" class="d-block w-100" alt="Men's Collection">
+        <div class="carousel-caption-custom">
+          <h2>Men's Collection</h2>
+          <p style="font-size:14px;letter-spacing:2px;margin-bottom:4px;">Refined. Bold. Timeless.</p>
+          <a href="mens.html">Shop Men</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="4000" style="position:relative;">
+        <img src="Images/slider_image3.jpg" class="d-block w-100" alt="Women's Collection">
+        <div class="carousel-caption-custom">
+          <h2>Women's Collection</h2>
+          <p style="font-size:14px;letter-spacing:2px;margin-bottom:4px;">Grace. Power. Style.</p>
+          <a href="womens.html">Shop Women</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- CATEGORY BANNERS -->
+<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:0;">
+  <a href="mens.html" style="position:relative;overflow:hidden;display:block;height:220px;text-decoration:none;">
+    <img src="Images/image 12.jpg" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.07)'" onmouseout="this.style.transform='scale(1)'">
+    <div style="position:absolute;inset:0;background:rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;">
+      <span style="color:white;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;letter-spacing:4px;">MEN</span>
+    </div>
+  </a>
+  <a href="womens.html" style="position:relative;overflow:hidden;display:block;height:220px;text-decoration:none;">
+    <img src="Images/image 11.jpg" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.07)'" onmouseout="this.style.transform='scale(1)'">
+    <div style="position:absolute;inset:0;background:rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;">
+      <span style="color:white;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;letter-spacing:4px;">WOMEN</span>
+    </div>
+  </a>
+  <a href="childrens.html" style="position:relative;overflow:hidden;display:block;height:220px;text-decoration:none;">
+    <img src="Images/image 19.jpg" style="width:100%;height:100%;object-fit:cover;transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.07)'" onmouseout="this.style.transform='scale(1)'">
+    <div style="position:absolute;inset:0;background:rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;">
+      <span style="color:white;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.8rem;letter-spacing:4px;">CHILDREN</span>
+    </div>
+  </a>
+</div>
+
+<!-- FEATURED PRODUCTS -->
+<div class="section-header">
+  <h2>Featured Pieces</h2>
+  <div class="section-divider"></div>
+  <p>Handpicked styles for every occasion</p>
+</div>
+
+<div class="product-grid">
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="product-card-img-wrap">
+      <img src="Images/image 12.jpg" alt="Formal Suit">
+      <button class="wishlist-btn" data-name="Formal Suit">♥</button>
+      <span class="product-badge">Featured</span>
+    </div>
+    <div class="product-card-body">
+      <h5>Formal Suit</h5>
+      <p>Dark green fully plated formal suit with matching hat.</p>
+    </div>
+    <div class="product-card-footer">
+      <select class="size-select"><option value="">Select Size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select>
+      <div class="price-row"><span class="price-current">P1,700</span></div>
+      <button class="add-to-cart" data-name="Formal Suit" data-price="1700">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-card-img-wrap">
+      <img src="Images/image 19.jpg" alt="Turquoise Suit">
+      <button class="wishlist-btn" data-name="Turquoise Suit">♥</button>
+    </div>
+    <div class="product-card-body">
+      <h5>Turquoise Suit</h5>
+      <p>A striking turquoise suit for a bold statement.</p>
+    </div>
+    <div class="product-card-footer">
+      <select class="size-select"><option value="">Select Size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select>
+      <div class="price-row"><span class="price-current">P1,500</span></div>
+      <button class="add-to-cart" data-name="Turquoise Suit" data-price="1500">Add to Cart</button>
+    </div>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="product-card-img-wrap">
+      <img src="Images/images 5.jpg" alt="Zip-Up Hoodie">
+      <button class="wishlist-btn" data-name="Zip-Up Hoodie">♥</button>
+      <span class="product-badge" style="background:#e74c3c;color:white;">Sale</span>
+    </div>
+    <div class="product-card-body">
+      <h5>Zip-Up Hoodie</h5>
+      <p>Classic black zip-up hoodie — everyday essential.</p>
+    </div>
+    <div class="product-card-footer">
+      <select class="size-select"><option value="">Select Size</option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+      <div class="price-row"><span class="price-current">P220</span></div>
+      <button class="add-to-cart" data-name="Zip-Up Hoodie" data-price="220">Add to Cart</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- TRUST BADGES -->
+<div style="background:white;padding:40px 20px;border-top:1px solid #eee;border-bottom:1px solid #eee;">
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;max-width:900px;margin:0 auto;text-align:center;">
+    <div>
+      <div style="font-size:32px;margin-bottom:8px;">🚚</div>
+      <h4 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;margin-bottom:4px;">Free Shipping</h4>
+      <p style="font-size:12px;color:#888;">On all orders over P500</p>
+    </div>
+    <div>
+      <div style="font-size:32px;margin-bottom:8px;">🔄</div>
+      <h4 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;margin-bottom:4px;">Easy Returns</h4>
+      <p style="font-size:12px;color:#888;">30-day return policy</p>
+    </div>
+    <div>
+      <div style="font-size:32px;margin-bottom:8px;">🔒</div>
+      <h4 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;margin-bottom:4px;">Secure Payment</h4>
+      <p style="font-size:12px;color:#888;">Your data is protected</p>
+    </div>
+    <div>
+      <div style="font-size:32px;margin-bottom:8px;">💬</div>
+      <h4 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1rem;margin-bottom:4px;">Customer Support</h4>
+      <p style="font-size:12px;color:#888;">Mon–Sat, 8am–6pm</p>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEWS -->
+<div class="reviews-section">
+  <div class="section-header" style="padding-top:10px;">
+    <h2>What Our Customers Say</h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="Images/Comment_image3.jpg" alt="Atlang">
+        <div><div class="reviewer-name">Atlang Hilasano</div><div class="stars">★★★★★</div></div>
+      </div>
+      <p>"I had a question about my sizing, and the support team answered within minutes. Excellent customer service!"</p>
+    </div>
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="Images/Comment_image2.jpg" alt="Kona">
+        <div><div class="reviewer-name">Kona Naya</div><div class="stars">★★★★★</div></div>
+      </div>
+      <p>"Really stylish designs! Gives a modern, luxurious feel. The packaging was top-notch and it arrived without a scratch."</p>
+    </div>
+    <div class="review-card">
+      <div class="reviewer">
+        <img src="Images/Comment_image1.jpg" alt="Issabela">
+        <div><div class="reviewer-name">Issabela Rosa</div><div class="stars">★★★★☆</div></div>
+      </div>
+      <p>"One item had a minor defect but customer service resolved it quickly. Great designs overall!"</p>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">Remanence</span>
+        <p>Dressing the whole family with elegance, comfort, and African pride since 2025.</p>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><ul>
+        <li><a href="womens.html">Women</a></li>
+        <li><a href="mens.html">Men</a></li>
+        <li><a href="childrens.html">Children</a></li>
+        <li><a href="product.html">All Products</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Help</h4><ul>
+        <li><a href="contact_us.html">Size Guide</a></li>
+        <li><a href="cart.html">Shipping Info</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="contact_us.html">Returns</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Company</h4><ul>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="about_us.html">Sustainability</a></li>
+        <li><a href="about_us.html">Careers</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Remanence. All rights reserved.</span>
+      <span>Made with ♥ in Botswana</span>
+    </div>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
